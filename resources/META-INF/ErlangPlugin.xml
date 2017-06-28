@@ -245,6 +245,8 @@
                          groupName="Erlang" enabledByDefault="true" level="WARNING"
                          implementationClass="org.intellij.erlang.inspection.ErlangConflictingBehavioursInspection"/>
 
+        <problemFileHighlightFilter implementation="org.intellij.erlang.inspection.ErlangProblemFileHighlightFilter"/>
+
         <externalAnnotator language="Erlang" implementationClass="org.intellij.erlang.dialyzer.ErlangDialyzerExternalAnnotator"/>
 
         <spellchecker.bundledDictionaryProvider implementation="org.intellij.erlang.spellchecker.ErlangBundledDictionaryProvider"/>
